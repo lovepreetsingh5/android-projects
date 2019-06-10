@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#aabbcc" >
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="26dp"
+        android:text="CITY"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView2"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignTop="@+id/textView4"
+        android:ems="10" 
+        android:background="#ffffff"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="REGISTRATION FORM"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginLeft="34dp"
+        android:text="NAME"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/autoCompleteTextView1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="27dp"
+        android:layout_marginLeft="14dp"
+        android:text="ROLL NO."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_centerVertical="true"
+        android:text="CLASS"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/autoCompleteTextView2"
+        android:layout_marginTop="21dp"
+        android:text="MOBILE NO."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignLeft="@+id/button1"
+        android:ems="10" 
+         android:background="#ffffff">
+
+        <requestFocus />
+    </EditText>
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/autoCompleteTextView2"
+        android:layout_centerVertical="true"
+        android:ems="10" 
+         android:background="#ffffff"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_toRightOf="@+id/textView5"
+        android:ems="10" 
+         android:background="#ffffff"/>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_toRightOf="@+id/textView5"
+        android:ems="10" 
+         android:background="#ffffff"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="27dp"
+        android:layout_toRightOf="@+id/textView5"
+        android:background="#ffffff"
+        android:text="Submit" />
+
+</RelativeLayout>
